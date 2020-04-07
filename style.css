@@ -66,6 +66,7 @@ footer {
 }
 
 .footer-left {
+    color: white;
     background-color: #333;
     width: 200px;
     flex-shrink: 0;
@@ -79,12 +80,11 @@ footer {
 }
 
 .footer-centre {
-    background-color: orange;
+    background-color: #333;
     width: 1600px;
 }
 
 .footer-right {
-    background-color: yellow;
     width: 150px;
     flex-shrink: 0;
 }
