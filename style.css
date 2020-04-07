@@ -40,3 +40,21 @@ header button {
     border: 1px solid black;
     position: relative;
 }
+
+.nome {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    padding: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 80%;
+
+}
+
+.nome i {
+    color: red;
+}
