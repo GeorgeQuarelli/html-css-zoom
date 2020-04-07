@@ -58,3 +58,43 @@ header button {
 .nome i {
     color: red;
 }
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    background-color: #333;
+    width: 200px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-left i {
+    color: white;
+}
+
+.footer-centre {
+    background-color: orange;
+    width: 1600px;
+}
+
+.footer-right {
+    background-color: yellow;
+    width: 150px;
+    flex-shrink: 0;
+}
+
+.footer-right button {
+    color: red;
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    border: 0;
+    line-height: 80px;
+    cursor: pointer;
+}
