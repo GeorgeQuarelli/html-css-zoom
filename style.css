@@ -7,3 +7,36 @@
 body {
     background-color: black;
 }
+
+header {
+    height: 50px;
+    text-align: right;
+}
+
+header button {
+    margin-right: 5px;
+    margin-top: 5px;
+    border: 0;
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.galleria-persone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px 0;
+}
+
+.persona {
+    width: 321px;
+    height: 181px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    position: relative;
+}
